@@ -1,6 +1,11 @@
 # ticketing
 
 A new Flutter project.
+Created by Muhamad Anis
+
+Ticketing System App
+Pages already created are Login and Home
+
 
 ## Getting Started
 

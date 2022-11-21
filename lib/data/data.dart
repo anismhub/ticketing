@@ -1,5 +1,6 @@
-import '../model/overview_model.dart';
-import '../model/ticket_model.dart';
+import 'package:ticketing/model/user_model.dart';
+import 'package:ticketing/model/overview_model.dart';
+import 'package:ticketing/model/ticket_model.dart';
 
 final List<OverviewModel> overviewModel = [
   OverviewModel(
@@ -52,5 +53,16 @@ final List<TicketModel> ticketModel = [
   TicketModel(
     heading: "PC Lemot",
     subHeading: "Terlalu lama untuk membuka aplikasi",
+  ),
+];
+
+final List<UserModel> userModel = [
+  UserModel(
+    imagePath:
+        'https://images.unsplash.com/photo-1664575602554-2087b04935a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+    name: 'Muhamad Anis',
+    nomor: '085150021000',
+    email: 'contohemail@gmail.com',
+    jobTitle: 'IT Support',
   ),
 ];

@@ -12,7 +12,7 @@ class OverviewGrid extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3,
+          crossAxisCount: 2,
           childAspectRatio: 1,
           crossAxisSpacing: 12,
           mainAxisSpacing: 20),
@@ -23,17 +23,16 @@ class OverviewGrid extends StatelessWidget {
             color: cLightBlue,
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 22),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   overviewModel[index].title,
-                  maxLines: 2,
                   softWrap: true,
                   style: const TextStyle(
-                    fontSize: 17,
+                    fontSize: 18,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
                   ),

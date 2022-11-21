@@ -107,11 +107,11 @@ class _HomePageState extends State<HomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.settings,
+                            Icons.menu,
                             color: currentTab == 2 ? cBlue : cGreen,
                           ),
                           Text(
-                            'Setting',
+                            'Menu',
                             style: TextStyle(
                                 color: currentTab == 2 ? cBlue : cGreen),
                           )

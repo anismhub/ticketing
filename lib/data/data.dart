@@ -1,3 +1,4 @@
+import 'package:ticketing/model/category_model.dart';
 import 'package:ticketing/model/user_model.dart';
 import 'package:ticketing/model/overview_model.dart';
 import 'package:ticketing/model/ticket_model.dart';
@@ -54,6 +55,11 @@ final List<TicketModel> ticketModel = [
     heading: "PC Lemot",
     subHeading: "Terlalu lama untuk membuka aplikasi",
   ),
+];
+
+final List<CategoryModel> categoryModel = [
+  CategoryModel(category: "Setting/Install"),
+  CategoryModel(category: "Problem")
 ];
 
 final List<UserModel> userModel = [

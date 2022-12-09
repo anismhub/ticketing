@@ -44,7 +44,7 @@ class InfoWidget extends StatelessWidget {
                 Icon(Icons.email),
                 SizedBox(width: 4),
                 Text(
-                  "Email    : " + email,
+                  "Email    : $email",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
@@ -58,7 +58,7 @@ class InfoWidget extends StatelessWidget {
                 Icon(Icons.phone_android),
                 SizedBox(width: 4),
                 Text(
-                  "No telp : " + nomor,
+                  "No telp : $nomor",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,

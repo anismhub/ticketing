@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:ticketing/data/data.dart';
-import 'package:ticketing/model/user_model.dart';
 import 'package:ticketing/widgets/info_widget.dart';
 import 'package:ticketing/widgets/photo_widget.dart';
 import '../constant.dart';
 
 class SettingPage extends StatefulWidget {
+  const SettingPage({super.key});
+
   @override
   _SettingPageState createState() => _SettingPageState();
 }

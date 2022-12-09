@@ -7,6 +7,8 @@ import 'setting.dart';
 import 'ticket.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -31,12 +33,12 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          setState(() {
-            currentScreen = CreateTicket();
-            currentTab = 99;
-          });
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => CreateTicket()),
+          );
         },
-        backgroundColor: currentTab == 99 ? cBlue : cGreen,
+        backgroundColor: cGreen,
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,

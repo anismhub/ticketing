@@ -6,6 +6,8 @@ import 'home.dart';
 
 class LogInPage extends StatefulWidget {
   static String tag = 'login-page';
+
+  const LogInPage({super.key});
   @override
   _LogInPageState createState() => _LogInPageState();
 }

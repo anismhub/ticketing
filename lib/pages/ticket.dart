@@ -3,6 +3,8 @@ import 'package:ticketing/widgets/ticket_list.dart';
 import '../constant.dart';
 
 class TicketPage extends StatefulWidget {
+  const TicketPage({super.key});
+
   @override
   _TicketPageState createState() => _TicketPageState();
 }
